@@ -1,0 +1,18 @@
+.qodo
+
+# IDE / Editor specific
+.qodo/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+
+# Environment variables
+.env

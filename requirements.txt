@@ -1,0 +1,5 @@
+# No external dependencies required for this application
+# The application uses only Python standard library modules
+transformers
+torch
+tf-keras # Added for Keras 3 compatibility with TensorFlow backend in transformers
