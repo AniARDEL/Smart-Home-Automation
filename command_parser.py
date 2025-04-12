@@ -1,7 +1,7 @@
 """
 AI Command Parser for Smart Home Application
 
-This module uses a Hugging Face model to parse natural language commands
+It uses a Hugging Face model to parse natural language commands
 for controlling simulated smart home devices.
 """
 
