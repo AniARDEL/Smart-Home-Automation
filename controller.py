@@ -1,7 +1,7 @@
 """
 Smart Home Controller
 
-This module implements the main controller for the smart home application,
+The the main controller for the smart home application is implemented,
 connecting the command parser with the device classes and handling command execution.
 """
 
