@@ -1,7 +1,7 @@
 """
 Smart Home Device Simulation Classes
 
-This module contains classes to simulate various smart home devices:
+This file contains classes to simulate various smart home devices:
 - Light: Can be turned ON/OFF
 - Fan: Can be turned ON/OFF and set to low, medium, or high speed
 - Thermostat: Can adjust temperature between 18°C and 30°C
