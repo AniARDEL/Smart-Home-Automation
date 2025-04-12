@@ -1,6 +1,7 @@
 # Smart Home Application with AI Command Processing
 
-This project implements a simple smart home application that allows users to control and monitor various devices (lights, fans, and thermostats) using natural language commands processed by a Hugging Face Transformers model.
+This project is a simple smart home application that has been created to allow users control and monitor lights, fans, and thermostats using natural language commands processed by Hugging Face Transformers  model.
+
 
 ## Project Structure
 
@@ -22,7 +23,8 @@ This project implements a simple smart home application that allows users to con
 
 ## Sample Commands and Expected Outputs
 
-Here are some examples of commands you can try and the typical responses you might see:
+
+Here are some examples of commands to try and the typical responses:
 
 1.  **Command:** `Turn on the living room light`
     **Output:** `Response: The Living Room Light is now ON.`
@@ -53,7 +55,7 @@ Here are some examples of commands you can try and the typical responses you mig
     ```bash
     pip install -r requirements.txt
     ```
-    _(Note: The first time you run the application, the Hugging Face model will be downloaded, which might take some time depending on your internet connection.)_
+    _(Note:  The first time you run the application, the Hugging Face model will be downloaded, which might take  some time depending on your internet connection.)
 3.  Navigate to the project directory.
 4.  Run the application:
     ```bash
@@ -69,14 +71,12 @@ Here are some examples of commands you can try and the typical responses you mig
 
 Key settings like the Hugging Face model name, classification confidence threshold, and default device names can be adjusted in the `config.py` file.
 
-## Future Enhancements
+## Possible Future Enhancements
 
 - More sophisticated NLP models or fine-tuning for better accuracy.
 - Handling more complex commands or conversation context.
-- Integration with real AI models (OpenAI API)
 - Additional device types
-- Multi-room support
-- User authentication
-- Graphical user interface
+- User interface
 - Voice input capabilities
 - Scheduling and automation features
+- Authentification
