@@ -1,7 +1,7 @@
 """
 Smart Home Application CLI
 
-This module provides a command-line interface for interacting with the smart home system.
+A command-line interface for interacting with the smart home system.
 """
 
 import sys
