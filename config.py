@@ -21,16 +21,9 @@ THERMOSTAT_MAX_TEMP = 30
 THERMOSTAT_DEFAULT_TEMP = 22
 THERMOSTAT_DEFAULT_ADJUST_AMOUNT = 1
 
-# Fan Speeds are defined within the Fan class in devices.py for encapsulation
+# Fan Speeds are defined within the Fan class in devices.py 
 # FAN_SPEED_OFF = "OFF" ... etc.
 
-# Command Parser Labels (Internal mapping helper)
-# These could also be defined here if desired, but keeping them close
-# to the parser logic in command_parser.py might be clearer.
-# Example:
-# LABEL_LIGHT_ON = "turn on light"
-# LABEL_LIGHT_OFF = "turn off light"
-# ... etc.
 
 # Exit commands for main loop
 EXIT_COMMANDS = ['exit', 'quit', 'bye', 'goodbye'] 
